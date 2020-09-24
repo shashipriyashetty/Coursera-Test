@@ -2,56 +2,63 @@
 
 /********** Base styles **********/
 * {
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 h1 {
   margin-bottom: 15px;
   text-align: center;
 }
-
-
- .col-lg-1{
+ h2 {
+      font-size:120%;
+      text-align:right;
+ }
+p{
+  font-style: italic;
+  margin-top:20px;
+}
+ .col-lg-1,.col-md-1{
 
   border: 1px solid black;
   background-color: #00FFFF;
-  width: 20%;
-  height: 200px;
-  margin-left:200px;
+  width: 43.33%;
+  height: 200px; 
+  margin-left:100px;
   margin-top:50px;
   font-family: Helvetica;
   color: black;
   text-align:center;
   
 }
-
-.col-lg-2{
+.col-lg-2,.col-md-2{
 
   border: 1px solid black;
   background-color: #00FFFF;
-  width: 20%;
-  height: 200px;
-  margin-left:50px;
+  width: 43.33%;
+  height: 200px;  
+  margin-left:100px;
   margin-top:50px;
   font-family: Helvetica;
   color: black;
   text-align:center;
   
 }
-
-.col-lg-3{
+.col-lg-3,.col-md-3{
 
   border: 1px solid black;
   background-color: #00FFFF;
-  width: 20%;
+  width: 43.33%;
   height: 200px;
-  margin-left:50px;
-
-  margin-top:50px;
+  margin-left:100px;
+  margin-top: 50px;
+  
   font-family: Helvetica;
   color: black;
   text-align:center;
   
 }
+
+
+
 
 /* Simple Responsive Framework. */
 .row {
@@ -65,58 +72,49 @@ h2 {
   .col-lg-1,.col-lg-2,.col-lg-3{
     float:left;
   }
-   .col-lg-1{
-    width:20%;
-  
+   .col-lg-1 {
+    width: 25.33%;
   }
-}
-.col-lg-2{
-    width:20%;
+  .col-lg-2 {
+    width: 25.33%;
   }
-}
-.col-lg-3{
-    width:20%;
+  .col-lg-3 {
+    width: 25.33%;
   }
 }
 
 
-@media (min-width:768px) and (max-width:991px){
-  .col-lg-1,.col-lg-2,.col-lg-3{
+@media (min-width:992px) and (max-width:1119px){
+  .col-md-1,.col-md-2,.col-md-3{
     float:left;
   }
-  .col-lg-1{
-    width:20%;
+  .col-md-1 {
+    width: 33.33%;
   }
-}
-.col-lg-2{
-    width:20%;
+  .col-md-2 {
+    width: 33.33%;
   }
-}
-.col-lg-3{
-    width:100%;
+  .col-md-3 {
+    width: 76.66%;
   }
 }
 
-
-@media (max-width:767px){
-  .col-lg-1,.col-lg-2,.col-lg-3{
+@media(max-width:767px){
+  .col-sm-1,.col-sm-2,.col-sm-3{
     float:left;
   }
-  .col-lg-1{
-
-    width:20%;
+  .col-sm-1 {
+    width: 43.33%;
   }
-
-.col-lg-2{
-
-    width:20%;
+  .col-sm-2 {
+    width: 43.33%;
   }
-
-.col-lg-3{
-    width:20%;
+  .col-sm-3 {
+    width: 43.33%;
   }
 }
 
+}
 
 
 </style>
