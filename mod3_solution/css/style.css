@@ -6,7 +6,6 @@ body {
 }
 #p {
   background-color: #796878;
-  font-style:italic;
 }
 
 /** HEADER **/
@@ -25,7 +24,7 @@ body {
   color: #557c3e;
   font-size: 1.5em;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: italic;
   text-shadow: 1px 1px 1px #222;
   margin-top: 0;
   margin-bottom: 0;
