@@ -4,8 +4,8 @@ body {
   background-color: #796873;
   font-family: 'Oxygen', sans-serif;
 }
-p {
-  background-color: #5d3954;
+#p {
+  background-color: pink;
 }
 
 /** HEADER **/
