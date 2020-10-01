@@ -1,7 +1,7 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: lightpurple;
+  background-color: pink;
   font-family: 'Oxygen', sans-serif;
 }
 p {
@@ -19,7 +19,7 @@ p {
 
 /** HEADER **/
 #header-nav {
-  background-color: purple;
+  background-color: red;
   border-radius: 0;
   border: 0;
 }
