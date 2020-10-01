@@ -1,16 +1,16 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #5d3954;
+  background-color: #61124f;
   font-family: 'Oxygen', sans-serif;
 }
 #p {
-  background-color: #796878;
+  background-color: blue;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: #red;
+  background-color: red;
   border-radius: 0;
   border: 0;
 }
@@ -24,7 +24,7 @@ body {
   color: #557c3e;
   font-size: 1.5em;
   text-transform: uppercase;
-  font-weight: italic;
+  font-weight: bold;
   text-shadow: 1px 1px 1px #222;
   margin-top: 0;
   margin-bottom: 0;
