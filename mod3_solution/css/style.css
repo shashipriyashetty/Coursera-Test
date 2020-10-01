@@ -5,11 +5,14 @@ body {
   font-family: 'Oxygen', sans-serif;
 }
 #p {
-  background-color: blue;
+  background-color: purple;
+  font-style:italic;
+  
 }
 
 /** HEADER **/
 #header-nav {
+  font-weight:bold;
   background-color: #cb99c9;
   border-radius: 0;
   border: 0;
