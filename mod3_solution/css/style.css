@@ -1,12 +1,12 @@
 body {
   font-size: 16px;
-  color: #fff;
+  color: black;
   background-color: #796873;
   font-family: 'Oxygen', sans-serif;
 }
 #p {
   color:black;
-  background-color: #800080;
+  background-color: #cb99c9;
   font-style:italic;
   
 }
@@ -51,7 +51,7 @@ body {
   margin-top: 10px;
 }
 #nav-list a {
-  color: green;
+  color: pink;
   text-align: center;
 }
 #nav-list a:hover {
