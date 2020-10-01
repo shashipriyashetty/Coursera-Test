@@ -1,8 +1,10 @@
 body {
   font-size: 16px;
+  font-weight:black;
   color: black;
   background-color: #796873;
   font-family: 'Oxygen', sans-serif;
+  margin-top:10px;
 }
 #p {
   color:black;
@@ -51,7 +53,7 @@ body {
   margin-top: 10px;
 }
 #nav-list a {
-  color: pink;
+  color: black;
   text-align: center;
 }
 #nav-list a:hover {
