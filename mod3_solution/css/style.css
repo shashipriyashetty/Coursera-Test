@@ -1,16 +1,16 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #61124f;
+  background-color: #cb99c9;
   font-family: 'Oxygen', sans-serif;
 }
 #p {
-  background-color: blue;
+  background-color: #796878;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: red;
+  background-color: #cb99c9;
   border-radius: 0;
   border: 0;
 }
