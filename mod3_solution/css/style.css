@@ -1,7 +1,7 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #5d3954;
+  background-color: #61124f;
   font-family: 'Oxygen', sans-serif;
 }
 #p {
@@ -10,7 +10,7 @@ body {
 
 /** HEADER **/
 #header-nav {
-  background-color: #cb99c9;
+  background-color: red;
   border-radius: 0;
   border: 0;
 }
